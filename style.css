@@ -1,0 +1,83 @@
+/* 
+  Paleta de cores:
+
+  #2F2E41 azul marinho
+  #00BFA6 azul claro
+  #C2C2C2 cinza
+  #fff branco
+*/
+
+body {
+  background: #2F2E41;
+  min-height: 100vh;
+  font-family: JetBrains Mono;
+  color: #fff;
+  text-align: center;
+
+}
+
+
+.page {
+  margin: 71px 99px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 167px;
+  gap: 80px;
+}
+
+span {
+  color: #00BFA6;
+}
+
+section p {
+  margin-top: 59px;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+a  {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding-top: 27px;
+  border-top: 1px #00BFA6 solid;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#lock {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
